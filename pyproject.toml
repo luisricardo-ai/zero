@@ -1,0 +1,17 @@
+[project]
+name = "zero"
+version = "0.1.0"
+description = "Zero shows the best Software Engineering's practices for Data Engineering projects."
+authors = [
+    {name = "LuisRicardo",email = "palharini.luis@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
