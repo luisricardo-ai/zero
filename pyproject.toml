@@ -9,6 +9,9 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "faker (>=37.0.2,<38.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
 ]
 
 
