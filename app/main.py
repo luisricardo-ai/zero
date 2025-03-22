@@ -1,6 +1,6 @@
 from utils.absenteeism_generator import generate_absenteeism_data
+from ETL.extract import extract_excel
 import os
-import pandas as pd
 
 def generate_excel_files(files: int = 10):
     """
@@ -19,3 +19,4 @@ def generate_excel_files(files: int = 10):
 
 if __name__ == "__main__":
     generate_excel_files()
+    list_df = extract_excel("data/input")
