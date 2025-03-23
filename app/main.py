@@ -1,6 +1,7 @@
 from utils.absenteeism_generator import generate_absenteeism_data
 from ETL.extract import extract_excel
 from ETL.transform import concatenate_dataframes
+from ETL.load import load_dataframe_excel
 
 import os
 
@@ -23,3 +24,4 @@ if __name__ == "__main__":
     generate_excel_files()
     list_df = extract_excel("data/input")
     df = concatenate_dataframes(data=list_df)
+    load_dataframe_excel(df)
