@@ -23,3 +23,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 test = "pytest -v"
+
+[tool.poetry]
+package-mode = false
