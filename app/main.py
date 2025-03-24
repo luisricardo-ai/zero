@@ -25,3 +25,4 @@ if __name__ == "__main__":
     list_df = extract_excel("data/input")
     df = concatenate_dataframes(data=list_df)
     load_dataframe_excel(df)
+    print("Done!")
