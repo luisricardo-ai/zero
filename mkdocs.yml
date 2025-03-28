@@ -1,0 +1,4 @@
+site_name: Zero
+
+nav:
+  - Home: home.md
