@@ -24,6 +24,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 test = "pytest -v"
+run = "python app/main.py"
+docs = "mkdocs serve"
 
 [tool.poetry]
 package-mode = false

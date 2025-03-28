@@ -1,4 +1,4 @@
 site_name: Zero
 
 nav:
-  - Home: home.md
+  - Home: index.md
