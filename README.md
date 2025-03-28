@@ -43,5 +43,10 @@ At this project i used [taskipy](https://github.com/taskipy/taskipy), so you can
     task run
 ```
 
+3. Run the docs server
+```sh
+    task docs
+```
+
 ## Contact
 * Luis Palharini - palharini.luis@gmail.com
